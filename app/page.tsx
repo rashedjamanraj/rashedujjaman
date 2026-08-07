@@ -1,12 +1,13 @@
-import RashedImages from "@/components/RashedImages";
-import StartPage from "@/components/StartPage";
+import HeroSection from "@/components/HeroSection";
+
+
 
 
 export default function Home() {
   return (
     <div>
-      <StartPage />
-      <RashedImages />
+      <HeroSection />
+      
     </div>
   );
 }
